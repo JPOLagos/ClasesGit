@@ -7,7 +7,11 @@
 
   // GitHub CLI, para "gh pr create".
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+     "ghcr.io/devcontainers/features/github-cli:1": {},
+     "ghcr.io/devcontainers/features/python:1": {
+     "version": "os-provided",
+     "installTools": false
+    }
   },
 
   // La máquina de 2 núcleos basta y gasta menos cuota.
